@@ -1,0 +1,3 @@
+Bu proje, bir araç kiralama firmasının kullandığı web sitesini oluşturmayı amaçlamaktadır.Firma sahibi bünyesindeki araçların bilgisini, müşterilerin bilgilerini,
+kiralama ve ödeme bilgilerini görebilecek.
+Faydalı olması dileğiyle...
