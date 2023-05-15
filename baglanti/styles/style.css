@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300;1,600&display=swap');
+
+:root {
+    --main-color: #;
+    --black-color: #0e0e0e;
+    --border: 0.1rem solid rgba(255, 255, 255, 0.4);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2 ease;
+}
+html {
+    font-size: 62.5%;
+    overflow: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+.title {
+    font-size: 5rem;
+}
+
+/*! body start  */
+body {
+    background-color: var(--main-color);
+    height: 200vh;
+}
+html {
+    height: 100%;
+    overflow: auto;
+}
+/*! body end  */
+
+section {
+    padding: 3.5rem 7%;
+}
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem 3.75rem;
+    border-radius: 30rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: var(--black-color);
+    cursor: pointer;
+}
+
+/*! head start  */
+.heading {
+    color: #000000;
+    font-size: 4rem;
+    font-style: italic;
+    font-style: bold;
+    text-transform: uppercase;
+}
+.heading span {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.header .logo img {
+    height: 10rem;
+}
+.header {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin: 2rem 7%;
+    border-radius: 30rem;
+    box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header .navbar a {
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: var(--black-color);
+    border-bottom: 0.1rem solid transparent;
+}
+.header .navbar .active,
+.header .navbar a:hover {
+    border-color: var(--main-color);
+    padding-bottom: 0.5rem;
+}
+.header .buttons button {
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2 rem;
+    background-color: transparent;
+}
+/*! head end  */
+
+/*! home start  */
+.home {
+    min-height: 100vh;
+    background: url(../images/home.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -14.5rem;
+    display: flex;
+    align-items: center;
+}
+.home .content {
+    max-width: 60rem;
+}
+.home h3 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color: #ffffff;
+}
+.home .content p {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #ccc;
+}
+/*! home end  */
+
+/*! hakkimizda start*/
+.hakkimizda h3{
+    font-size: 2.5rem;
+    font-style:italic;
+}
+/*! hakkimizda end */
+.hakkimizda p{
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+/*! arac listesi start*/
+.araclistesi h3{
+    font-size: 2.5rem;
+    font-style: italic;
+}
+/*! arac listesi end */
+/*! arac gorselleri start*/
+.aracgorselleribaslik h3{
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.arac_gorselleri {
+    align-items: center;
+    text-align: center;
+}
+
+.arac_gorselleri h3{
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
+/*! arac gorselleri end*/
+/*! kiralama bilgileri start*/
+.kiralamabilgileri h3{
+    font-size: 2.5rem;
+    font-style: italic;
+}
+/*! kiralama bilgileri end */
+
+/*! musteri bilgileri start*/
+.musteribilgileri h3{
+    font-size: 2.5rem;
+    font-style: italic;
+}
+/*! musteri bilgileri end */
+
+/*! odeme bilgileri start*/
+.odemebilgileri h3{
+    font-size: 2.5rem;
+    font-style: italic;
+}
+/*! odeme bilgileri end */
+
+
+/*! footer start  */
+.footer {
+    background-color: var(--black-color);
+    text-align: center;
+}
+.footer .search {
+    display: flex;
+    justify-content: center;
+}
+.footer .search .search-input {
+    width: 30rem;
+}
+.footer .search .btn-primary {
+    background-color: var(--main-color);
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+}
+.footer .share {
+    padding: 2rem 0;
+}
+.footer .share a {
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    color: #fff;
+    font-size: 2rem;
+    border: var(--border);
+    border-radius: 50%;
+    margin: 0.3rem;
+}
+.footer .share a:hover {
+    background-color: var(--main-color);
+}
+.footer .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.footer .links a {
+    background-color: var(--main-color);
+    padding: 0.7rem 2rem;
+    color: #fff;
+    font-size: 2rem;
+    border: var(--border);
+}
+.footer .links a:hover {
+    background-color: var(--black-color);
+    opacity: 0.7;
+}
+.footer .links a.active {
+    background-color: var(--black-color);
+}
+.footer .credit {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 1.5rem;
+}
+.footer .credit span {
+    color: var(--main-color);
+}
+/*! footer end  */
+
